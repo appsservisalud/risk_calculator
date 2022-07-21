@@ -34,6 +34,8 @@ document.getElementById("gender_user").onchange = function() {
         <br/>`
 
     }
+   }else{
+    body_mass_index_user.style.display = "none"
    }
 }
 

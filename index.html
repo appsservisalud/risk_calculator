@@ -7,8 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSS en desarrollo -->
-
+    <!--Css de bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!--Tipografias de google-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 
     <!--<?!= include("/src/css/main-prod.html"); ?>-->
 
@@ -27,10 +30,13 @@
 
         <div id="title_form"><h3>Bienvenido</h3></div>
 
-        <label>Cedula del paciente:</label>
-        <input type="number" id="cc_user" class="field" required><br/>
-
-        <label>Genero del paciente:</label>
+        <div class="grupo">
+            <label>Cedula del paciente:</label>
+            <input type="number" id="cc_user" class="field" required><br/>
+        </div>
+       
+        <div class="grupo">
+            <label>Genero del paciente:</label>
         <select name="gender_user" id="gender_user" class="field">
             
             <option value="none" selected>Seleccione una opción</option>
@@ -38,21 +44,31 @@
             <option value=1>Mujer</option>
         </select>
         <br/>
+        </div>
 
-        <label for="">Fecha de registro:</label>
-        <input type="date" id="registration_date" class="field" required>
-        <br/>
+        <div class="grupo">
+            <label for="">Fecha de registro:</label>
+            <input type="date" id="registration_date" class="field" required>
+            <br/>
+        </div>
 
-        <label>Nombre del paciente:</label>
+        <div class="grupo">
+            <label>Nombre del paciente:</label>
         <input type="text" id="name_user" class="field" required><br/>
+        </div>
 
-        <label>Apellido del paciente:</label>
+        <div class="grupo">
+            <label>Apellido del paciente:</label>
         <input type="text" id="last_name_user" class="field" required><br/>
+        </div>
 
-        <label>Correo del paciente:</label>
+        <div class="grupo">
+            <label>Correo del paciente:</label>
         <input type="email" id="email_user" class="field" required><br/>
+        </div>
 
-        <label for="">¿Que desea hacer con el correo electronico del paciente?</label>
+        <div class="grupo">
+            <label for="">¿Que desea hacer con el correo electronico del paciente?</label>
         <select name="mail_delivery_user" id="mail_delivery_user" class="field" required>
 
             <option value="none"  selected>Seleccione una opción</option>
@@ -61,8 +77,10 @@
             <option value=3>No enviar</option>
         </select>
         <br/>
+        </div>
 
-        <label>¿Cual es la edad en años?:</label>
+        <div class="grupo">
+            <label>¿Cual es la edad en años?:</label>
         <select name="age_user" id="age_user" class="field" required>
 
             <option value="none"  selected>Seleccione una opción</option>
@@ -72,12 +90,16 @@
             <option value=4>Mas de 64 años</option>
         </select>
         <br/>
-
-
-        <div id="body_mass_index_user">
         </div>
-
-        <label>¿Cual es su indice de masa corporal en kg/m2?:</label>
+        
+        <div class="grupo">
+            <div id="body_mass_index_user">
+            </div>
+    
+        </div>
+       
+        <div class="grupo">
+            <label>¿Cual es su indice de masa corporal en kg/m2?:</label>
         <select name="body_mass_index_user" id="body_mass_index_user" class="field" required>
 
             <option value="none"  selected>Seleccione una opción</option>
@@ -86,8 +108,10 @@
             <option value=3>Mayor de 30</option>
         </select>
         <br/>
+        </div>
 
-        <label for="">¿Realiza al menos 30 min de actividad fisica en el trabajo y/o tiempo libre?</label>
+        <div class="grupo">
+            <label for="">¿Realiza al menos 30 min de actividad fisica en el trabajo y/o tiempo libre?</label>
         <select name="physical_activity_user" id="physical_activity_user" class="field" required>
 
             <option value="none"  selected>Seleccione una opción</option>
@@ -95,45 +119,54 @@
             <option value=0>No</option>
         </select>
         <br/>
+        </div>
+        
+        <div class="grupo">
+            <label for="">¿Con que frecuencia come frutas y verduras?</label>
+            <select name="fruits_vegetables" id="fruits_vegetables" class="field" required>
+    
+                <option value="none"  selected>Seleccione una opción</option>
+                <option value=0>Todos los dias</option>
+                <option value=1>No todos los dias</option>
+            </select>
+            <br/>
+        </div>
 
-        <label for="">¿Con que frecuencia come frutas y verduras?</label>
-        <select name="fruits_vegetables" id="fruits_vegetables" class="field" required>
+        <div class="grupo">
+            <label for="">¿Toma medicación para la hipertensión regularmente?</label>
+            <select name="hipertension_medication" id="hipertension_medication" class="field" required>
+    
+                <option value="none"  selected>Seleccione una opción</option>
+                <option value=2>Si</option>
+                <option value=0>No</option>
+            </select>
+            <br/>
+        </div>
 
-            <option value="none"  selected>Seleccione una opción</option>
-            <option value=0>Todos los dias</option>
-            <option value=1>No todos los dias</option>
-        </select>
-        <br/>
+        <div class="grupo">
+            <label for="">¿Le han encontrado alguna vez, valores de glucosa altos?</label>
+            <select name="high_glucose_values" id="high_glucose_values" class="field" required>
+    
+                <option value="none"  selected>Seleccione una opción</option>
+                <option value=5>Si</option>
+                <option value=0>No</option>
+            </select>
+            <br/>
+        </div>
 
-        <label for="">¿Toma medicación para la hipertensión regularmente?</label>
-        <select name="hipertension_medication" id="hipertension_medication" class="field" required>
-
-            <option value="none"  selected>Seleccione una opción</option>
-            <option value=2>Si</option>
-            <option value=0>No</option>
-        </select>
-        <br/>
-
-        <label for="">¿Le han encontrado alguna vez, valores de glucosa altos?</label>
-        <select name="high_glucose_values" id="high_glucose_values" class="field" required>
-
-            <option value="none"  selected>Seleccione una opción</option>
-            <option value=5>Si</option>
-            <option value=0>No</option>
-        </select>
-        <br/>
-
-        <label for="">¿Se le ha diagnosticado diabetes(Tipo 1 o 2), a algunos de sus allegados u otros parientes?
-        </label>
-        <select name="diabetes_diagnosis" id="diabetes_diagnosis" class="field" required>>
-
-            <option value="none"  selected>Seleccione una opción</option>
-            <option value=0>No</option>
-            <option value=3>Sí. A mis abuelos, tia,tio,primo,hermanos.</option>
-            <option value=5>Sí,padres,hermanos,hijos</option>
-        </select>
-        <br/>
-
+        <div class="grupo">
+            <label for="">¿Se le ha diagnosticado diabetes(Tipo 1 o 2), a algunos de sus allegados u otros parientes?
+            </label>
+            <select name="diabetes_diagnosis" id="diabetes_diagnosis" class="field" required>>
+    
+                <option value="none"  selected>Seleccione una opción</option>
+                <option value=0>No</option>
+                <option value=3>Sí. A mis abuelos, tia,tio,primo,hermanos.</option>
+                <option value=5>Sí,padres,hermanos,hijos</option>
+            </select>
+            <br/>
+        </div>
+        
 
         <p class="center-content"><button type="submit" id="submit" class="btn btn-success">Calcular riesgo</button></p>
         <div id="msgs"></div>

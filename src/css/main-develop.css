@@ -1,7 +1,10 @@
 
 
 body {
-    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
     background-color: #5e9cc0;
     box-sizing: border-box;
 }
@@ -15,35 +18,49 @@ body {
 form{
 
     background-color: white;
-    border-radius: 3PX;
+    box-shadow: 0 0 6px 0 rgba(255,255,255, 0.8);
+    border-radius: 10PX;
     color: #999;
-    font-size: 0.8em;
+    font-size: 1.4em;
     padding: 10PX;
     margin: 0 auto;
-    width: 300px;
+    width: 600px;
+   
+
 
 }
+
 
 label{
-    padding-top:10px;
+    
+    font-size:15px ;
+    padding-top:20px;
+    margin-left: 15px;
 }
+
+
 input,textarea{
+    
+    width: 100%;
     border: 0;
     outline: none;
 }
 
+
 input[type="number"]
 {
     -webkit-appearance: textfield !important;
-     margin:0;
     -moz-appearance: textfield !important;
 }
 
 .field{
     
-    border:solid 1px #ccc;
-    padding: 10px;
-    width: 280px;
+    border:solid 0.1px rgb(226, 226, 226);
+    padding: 15px;
+    width: 550px;
+    margin-left: 15px;
+    color: rgb(44, 44, 44);
+    
 }
 
 .field:focus{

@@ -82,12 +82,23 @@ input[type="number"]
 
 @media screen and (max-width:480px){
 
+    .container{
+
+        padding-top: 20px;
+    
+    }
+
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+
     form{
 
-        font-size: 1.4em;
-        padding: 10PX;
+        font-size: 1.2em;
         margin: 0 auto;
-        width: 300px;
+        width: 305px;
+        margin-left:-5px ;
        
     
     }
@@ -96,6 +107,7 @@ input[type="number"]
     .field{
         
         width: 250px;
+
         
     }
     

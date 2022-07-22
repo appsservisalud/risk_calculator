@@ -163,7 +163,7 @@ input[type="number"]
   }
 */
 
-/*Movil grande*/
+/*Movil medio*/
 @media screen and (min-width:350px){
 
     .container{
@@ -196,3 +196,135 @@ input[type="number"]
 
   }
 
+
+/*Movil medio*/
+@media screen and (min-width:384px){
+
+    .container{
+
+        padding-top: 20px;
+    
+    }
+
+
+    form{
+        
+        font-size: 1.2em;
+        margin: 0 auto;
+        width: 370px;
+        margin-left:-7px ;
+       
+    
+    }
+    
+    
+    .field{
+        
+        width: 305px;
+        margin-left:5px ;
+
+        
+    }
+    
+  
+
+  }
+
+  /*Movil iPhone 11*/
+@media screen and (min-width:375px){
+
+    .container{
+
+        padding-top: 20px;
+    
+    }
+
+
+    form{
+        
+        font-size: 1.2em;
+        margin: 0 auto;
+        width: 358px;
+        margin-left:-7px ;
+       
+    
+    }
+    
+    
+    .field{
+        
+        width: 305px;
+        margin-left:5px ;
+
+        
+    }
+    
+  
+
+  }
+
+/*Movil iPhone 12 y 13*/
+@media screen and (min-width:384px){
+
+    .container{
+
+        padding-top: 20px;
+    
+    }
+
+
+    form{
+        
+        font-size: 1.2em;
+        margin: 0 auto;
+        width: 375px;
+        margin-left:-7px ;
+       
+    
+    }
+    
+    
+    .field{
+        
+        width: 305px;
+        margin-left:5px ;
+
+        
+    }
+    
+  
+
+  }
+
+/*Movil grande*/
+@media screen and (min-width:412px){
+
+    .container{
+
+        padding-top: 20px;
+    
+    }
+
+
+    form{
+        
+        font-size: 1.2em;
+        margin: 0 auto;
+        width: 400px;
+        margin-left:-7px ;
+       
+    
+    }
+    
+    
+    .field{
+        
+        width: 370px;
+        margin-left:5px ;
+
+        
+    }
+    
+  
+
+  }

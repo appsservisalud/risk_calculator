@@ -92,7 +92,8 @@ input[type="number"]
 }
 
 
-@media screen and (max-width:480px){
+/*Movil pequeño*/
+@media screen and (max-width:360px){
 
     .container{
 
@@ -100,16 +101,12 @@ input[type="number"]
     
     }
 
-    body{
-        margin: 0px;
-        padding: 0px;
-    }
 
     form{
         
         font-size: 1.2em;
         margin: 0 auto;
-        width: 360px;
+        width: 345px;
         margin-left:-5px ;
        
     
@@ -118,11 +115,80 @@ input[type="number"]
     
     .field{
         
-        width: 250px;
+        width: 295px;
 
         
     }
     
+  
+
+  }
+
+  /*Movil medio*/
+  @media screen and (max-width:375px){
+
+    .container{
+
+        padding-top: 20px;
+    
+    }
+
+
+    form{
+        
+        font-size: 1.2em;
+        margin: 0 auto;
+        width: 362px;
+        margin-left:-5px ;
+       
+    
+    }
+    
+    
+    .field{
+        
+        width: 315px;
+
+        
+    }
+
+
+    
+  
+
+  }
+
+/*Movil grande*/
+  @media screen and (max-width:720px){
+
+    .container{
+
+        padding-top: 20px;
+    
+    }
+
+
+    form{
+        
+        font-size: 1.2em;
+        margin: 0 auto;
+        width: 700px;
+        margin-left:-90px ;
+       
+    
+    }
+    
+    
+    .field{
+
+        padding: 15px;
+        width: 650px;
+        margin-left: 15px;
+        color: rgb(44, 44, 44);
+        
+    }
+
+ 
   
 
   }

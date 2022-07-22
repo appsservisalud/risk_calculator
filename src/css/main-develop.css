@@ -1,9 +1,6 @@
 
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'PT Sans', sans-serif;
     background-color: #5e9cc0;
     box-sizing: border-box;
@@ -81,3 +78,27 @@ input[type="number"]
     text-align: center;
     color:rgb(66, 123, 187);
 }
+
+
+@media screen and (max-width:480px){
+
+    form{
+
+        font-size: 1.4em;
+        padding: 10PX;
+        margin: 0 auto;
+        width: 300px;
+       
+    
+    }
+    
+    
+    .field{
+        
+        width: 250px;
+        
+    }
+    
+  
+
+  }

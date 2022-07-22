@@ -91,8 +91,9 @@ input[type="number"]
     padding: 10px;
 }
 
-
 /*Movil pequeño*/
+
+/*
 @media screen and (max-width:360px){
 
     .container{
@@ -123,8 +124,10 @@ input[type="number"]
   
 
   }
-
+*/
   /*Movil medio*/
+
+  /*
   @media screen and (max-width:375px){
 
     .container{
@@ -157,8 +160,43 @@ input[type="number"]
   
 
   }
+*/
 
 /*Movil grande*/
+@media screen and (min-width:760px){
+
+    .container{
+
+        padding-top: 20px;
+    
+    }
+
+
+    form{
+        
+        font-size: 1.2em;
+        margin: 0 auto;
+        width: 730px;
+        margin-left:-105px ;
+       
+    
+    }
+    
+    
+    .field{
+        
+        width: 680px;
+
+        
+    }
+    
+  
+
+  }
+
+/*Movil grande*/
+
+/*
   @media screen and (max-width:720px){
 
     .container{
@@ -192,3 +230,5 @@ input[type="number"]
   
 
   }
+
+  */

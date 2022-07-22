@@ -96,7 +96,15 @@ document.getElementById('form').addEventListener('submit',function(e)
 
         //alert(`Señor(@) ${basic_user_data.name_user}.Usted se encuentra en un riesgo ${get_risk_range()} de diabetes`)
 
-        Swal.fire(`Señor(@) ${basic_user_data.name_user}.Usted se encuentra en un riesgo ${get_risk_range()} de diabetes`)
+    
+
+        Swal.fire({
+            text: `Señor(@) ${basic_user_data.name_user}.Usted se encuentra en un riesgo ${get_risk_range()} de diabetes`,
+            imageUrl: 'src/img/salud.png',
+            imageWidth: 150,
+            imageHeight: 120,
+            imageAlt: 'Custom image',
+          })
 
 
     });

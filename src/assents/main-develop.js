@@ -6,7 +6,7 @@ document.getElementById("gender_user").onchange = function() {
     gender_user = document.querySelector("#gender_user")
     body_mass_index_user = document.querySelector("#body_mass_index_user")
 
-    if(gender_user.value != "none"){
+    if(gender_user.value != ""){
 
             if(gender_user.value == 0){
 

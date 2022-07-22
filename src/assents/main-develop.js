@@ -76,9 +76,9 @@ document.getElementById('form').addEventListener('submit',function(e)
         //Clasificamos el riesgo deacuerdo a la suma total del puntaje
         function get_risk_range()
         {
-            let risk_range = {"Riesgo alto":sum_user_score > 12,
-                            "Riesgo moderado":10<= sum_user_score  && sum_user_score <= 12,
-                            "Riesgo bajo":sum_user_score < 10
+            let risk_range = {"riesgo alto":sum_user_score > 12,
+                            "riesgo moderado":10<= sum_user_score  && sum_user_score <= 12,
+                            "riesgo bajo":sum_user_score < 10
                         }
             
             //Retornamos el tipo de riesgo
@@ -94,8 +94,9 @@ document.getElementById('form').addEventListener('submit',function(e)
 
         }
 
-        alert(`Señor(@) ${basic_user_data.name_user}.Usted se encuentra en un riesgo ${get_risk_range()} de diabetes`)
+        //alert(`Señor(@) ${basic_user_data.name_user}.Usted se encuentra en un riesgo ${get_risk_range()} de diabetes`)
 
+        Swal.fire(`Señor(@) ${basic_user_data.name_user}.Usted se encuentra en un riesgo ${get_risk_range()} de diabetes`)
 
 
     });

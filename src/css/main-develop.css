@@ -71,6 +71,7 @@ input[type="number"]
 
 .center-content button{
     font-size: 28px;
+    margin-top:15px ;
 }
 
 #title_form{
@@ -163,7 +164,7 @@ input[type="number"]
 */
 
 /*Movil grande*/
-@media screen and (min-width:760px){
+@media screen and (max-width:480px){
 
     .container{
 
@@ -176,8 +177,8 @@ input[type="number"]
         
         font-size: 1.2em;
         margin: 0 auto;
-        width: 730px;
-        margin-left:-105px ;
+        width: 470px;
+        margin-left:-7px ;
        
     
     }
@@ -185,7 +186,7 @@ input[type="number"]
     
     .field{
         
-        width: 680px;
+        width: 425px;
 
         
     }

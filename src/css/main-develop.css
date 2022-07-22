@@ -75,8 +75,20 @@ input[type="number"]
 
 #title_form{
 
+    margin-top: 30px;
     text-align: center;
     color:rgb(66, 123, 187);
+}
+
+#title_form h3{
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#title_form img{
+    padding: 10px;
 }
 
 
@@ -94,7 +106,7 @@ input[type="number"]
     }
 
     form{
-
+        
         font-size: 1.2em;
         margin: 0 auto;
         width: 305px;

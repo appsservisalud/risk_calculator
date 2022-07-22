@@ -102,7 +102,7 @@ document.getElementById('form').addEventListener('submit',function(e)
             text: `Señor(@) ${basic_user_data.name_user}.Usted se encuentra en un riesgo ${get_risk_range()} de diabetes`,
             imageUrl: 'src/img/salud.png',
             imageWidth: 150,
-            imageHeight: 120,
+            imageHeight: 115,
             imageAlt: 'Custom image',
           })
 

@@ -164,7 +164,7 @@ input[type="number"]
 */
 
 /*Movil grande*/
-@media screen and (max-width:480px){
+@media screen and (max-width:350px){
 
     .container{
 
@@ -177,7 +177,7 @@ input[type="number"]
         
         font-size: 1.2em;
         margin: 0 auto;
-        width: 470px;
+        width: 340px;
         margin-left:-7px ;
        
     
@@ -186,7 +186,8 @@ input[type="number"]
     
     .field{
         
-        width: 425px;
+        width: 305px;
+        margin-left:5px ;
 
         
     }

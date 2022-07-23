@@ -328,3 +328,38 @@ input[type="number"]
   
 
   }
+
+
+
+  /*Pantalla de computador*/
+@media screen and (min-width:720px){
+
+    .container{
+
+        padding-top: 20px;
+    
+    }
+
+
+    form{
+        
+        font-size: 1.2em;
+        margin: 0 auto;
+        width: 400px;
+        margin-left:450px ;
+       
+    
+    }
+    
+    
+    .field{
+        
+        width: 370px;
+        margin-left:5px ;
+
+        
+    }
+    
+  
+
+  }
